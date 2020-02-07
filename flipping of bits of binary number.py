@@ -7,7 +7,8 @@ def invertBits(num):
     print(x)
     for i in range(x):  
         num = (num ^ (1 << i))  
-    print(num)  
+    print(num) 
+    print(bin(num))
   
 invertBits(num)  
 
