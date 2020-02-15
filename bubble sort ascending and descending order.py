@@ -12,7 +12,7 @@ list2=[]
 k=0
 for j in range(len(list1)):
     for i in range(len(list1)-1):
-        if list1[i]>list1[i+1]: # change to < and rewrite other program may be the chance decending order will be come.
+        if list1[i]>list1[i+1]: 
             list1[i],list1[i+1]= list1[i+1],list1[i]
             
     list2.append(list1[i+1+k])
