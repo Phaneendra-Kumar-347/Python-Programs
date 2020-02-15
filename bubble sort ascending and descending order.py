@@ -17,10 +17,7 @@ for j in range(len(list1)):
             
     list2.append(list1[i+1+k])
     k=k-1
-print(list1)
-print(list2)
+print("ascending order of the list is ",list1)
+print("descending order of the list is",list2)
 
 
-print("phani\thari")
-print("phani\rhari")
-print("phani\nhari")
